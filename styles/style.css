@@ -5,11 +5,12 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    font-size: 18px;
     color: var(--text-color);
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 52px;
     font-weight: 700;
 }
 
@@ -18,10 +19,8 @@ h1 {
 
 }
 
-@media screen and (min-width: 991px) {
-    .header {
-        padding: 24px 140px;
-    }
+.header {
+    padding: 10px 22px;
 }
 
 .navbar a {
@@ -36,6 +35,8 @@ h1 {
 .hero {
     color: #fff;
     background-image: url(../images/overlay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 265px;
     display: flex;
     justify-content: center;
@@ -43,6 +44,35 @@ h1 {
 }
 
 .hero-text p {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 991px) {
+    h1 {
+        font-size: 72px;
+    }
+
+    .header {
+        padding: 24px 140px;
+    }
+
+    .hero-text p {
+        font-size: 24px;
+    }
+}
+
+/* Recipe items */
+.recipe-img {
+    width: 100%;
+}
+
+.recipe-name {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .recipe-name {
+        font-size: 28px;
+    }
 }
