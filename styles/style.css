@@ -1,3 +1,48 @@
+:root {
+    --text-color: #272142;
+    --primary-color: #662EED;
+}
+
 body {
     font-family: 'Nunito', sans-serif;
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.logo {
+    width: 100%;
+
+}
+
+@media screen and (min-width: 991px) {
+    .header {
+        padding: 24px 140px;
+    }
+}
+
+.navbar a {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--primary-color);
+}
+
+.hero {
+    color: #fff;
+    background-image: url(../images/overlay.jpg);
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text p {
+    font-size: 24px;
+    font-weight: 700;
 }
