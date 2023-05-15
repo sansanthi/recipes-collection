@@ -5,13 +5,38 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 400;
     color: var(--text-color);
+}
+
+img {
+    display: block;
+}
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
 }
 
 h1 {
     font-size: 52px;
-    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 16px;
 }
 
 .logo {
@@ -25,6 +50,7 @@ h1 {
 
 .navbar a {
     font-size: 16px;
+    font-weight: 700;
     color: var(--text-color);
 }
 
@@ -49,8 +75,24 @@ h1 {
 }
 
 @media screen and (min-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+
     h1 {
         font-size: 72px;
+    }
+
+    h2 {
+        font-size: 64px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    h4 {
+        font-size: 24px;
     }
 
     .header {
@@ -74,5 +116,40 @@ h1 {
 @media screen and (min-width: 768px) {
     .recipe-name {
         font-size: 28px;
+    }
+}
+
+.profile-img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.about p {
+    font-weight: 400;
+}
+
+@media screen and (min-width: 992px) {
+    .profile-img {
+        margin-left: auto;
+    }
+
+    .about {
+        text-align: left;
+    }
+}
+
+.fav-section {
+    padding: 0 32px;
+}
+
+@media screen and (min-width: 992px) {
+    .fav-section {
+        padding: 0;
     }
 }
