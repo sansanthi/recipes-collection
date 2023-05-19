@@ -153,3 +153,55 @@ h4 {
         padding: 0;
     }
 }
+
+
+/* Recipe */
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.underline-dotted {
+    border-bottom: 1px dashed #67D5D2;
+}
+
+.recipe-instrucitons {
+    margin-bottom: 40px;
+}
+
+table {
+    table-layout: fixed;
+}
+
+th:last-child,
+td:last-child {
+    padding-left: 20px;
+}
+
+td:first-child {
+    width: 100%;
+}
+
+tbody:before {
+    content: "@";
+    display: block;
+    line-height: 20px;
+    text-indent: -99999px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #67D5D2;
+}
+
+.step {
+    color: #F65282;
+    font-size: 18px;
+}
