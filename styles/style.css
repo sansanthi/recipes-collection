@@ -190,13 +190,13 @@ tbody:before {
     text-indent: -99999px;
 }
 
-ul {
+.recipe-container ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-ul li {
+.recipe-container ul li {
     padding: 10px 0;
     border-bottom: 1px dashed #67D5D2;
 }
