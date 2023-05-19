@@ -205,3 +205,15 @@ tbody:before {
     color: #F65282;
     font-size: 18px;
 }
+
+/* Contact */
+.contact-container .profile-img {
+    margin-left: auto;
+}
+
+.contact-title {
+    font-size: 18px;
+    color: #662EED;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
