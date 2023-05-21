@@ -45,7 +45,7 @@ img:not(.logo) {
 }
 
 .header {
-    padding: 10px 22px;
+    padding: 10px 0;
 }
 
 .navbar a {
@@ -96,7 +96,7 @@ img:not(.logo) {
     }
 
     .header {
-        padding: 24px 140px;
+        padding: 24px 0;
     }
 
     .hero-text p {
