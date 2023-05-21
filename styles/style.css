@@ -39,7 +39,7 @@ h4 {
     font-size: 16px;
 }
 
-.logo {
+img:not(.logo) {
     width: 100%;
 
 }
@@ -216,4 +216,13 @@ tbody:before {
     color: #662EED;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+/* footer */
+footer {
+    background: #F9F7FE;
+}
+
+footer a {
+    color: #272142;
 }
